@@ -1,10 +1,10 @@
 # node-cross-compiler
 
 This project aims to simplify the process of cross-compiling node.js on
-smartphone and robotics plattforms.
+smartphone and robotics platforms.
 
 My main target plattform is the Parrot AR Drone 2.0, but I will merge pull
-requests for any other plattforms as well.
+requests for any other platforms as well.
 
 ## Requirements
 
@@ -32,4 +32,4 @@ on the ardrone2. You will find the resulting binary in `build/bin/node`.
 
 If you want to contribute support for another plattform, we probably need a
 `common.sh` file for shared environment variables. Other than that it should
-be as simple as adding it to the `plattforms` folder and `Makefile`.
+be as simple as adding it to the `platforms` folder and `Makefile`.
