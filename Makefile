@@ -1,5 +1,5 @@
 ardrone2:
-	./plattforms/ardrone2.sh
+	./platforms/ardrone2.sh
 
 clean:
 	cd node && git clean -fdX
