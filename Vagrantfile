@@ -10,7 +10,7 @@ Vagrant::Config.run do |config|
   # Allow symlinks
   config.vm.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/cross-compiler", "1"]
   # Otherwise the compile will go into swap, making things slow
-  config.vm.customize ["modifyvm", :id, "--memory", 2048]
+  config.vm.customize ["modifyvm", :id, "--memory", "2048"]
   # Setup virtual machine
   #config.vm.provision :shell, :inline => "./cross-compiler/setup-vm.sh"
 end
