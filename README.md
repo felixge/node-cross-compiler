@@ -3,7 +3,7 @@
 This project aims to simplify the process of cross-compiling node.js on
 smartphone and robotics platforms.
 
-My main target plattform is the Parrot AR Drone 2.0, but I will merge pull
+My main target platform is the Parrot AR Drone 2.0, but I will merge pull
 requests for any other platforms as well.
 
 ## Requirements
