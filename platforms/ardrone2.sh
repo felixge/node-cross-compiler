@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export SOURCERY="`cd ../arm-2009q1 && pwd`"
+export SOURCERY="`cd ../armtools && pwd`"
 export TOOL_PREFIX="${SOURCERY}/bin/arm-none-linux-gnueabi"
 export CXX="${TOOL_PREFIX}-g++"
 export AR="${TOOL_PREFIX}-ar"
