@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-NODE_VERSION="v0.8.14"
+NODE_VERSION="v0.8.15"
 
 echo "-> Installing apt-get packages"
 
