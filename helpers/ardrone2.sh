@@ -6,6 +6,9 @@ if [ ! -e build/bin/node ]; then
   vagrant up
   echo "-> Building node binary"
   vagrant ssh -c "cd cross-compiler && ./setup-vm.sh && make ardrone2"
+  echo "-> Halting VM"
+  vagrant halt
+  echo "-> To completely remove the VM, please execute 'vagrant destroy'"
 else
   echo "-> Skipping build (node binary exists)"
 fi
