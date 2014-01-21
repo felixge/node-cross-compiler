@@ -19,7 +19,7 @@ if [[ $a == "Y" || $a == "y" || $a = "" ]]; then
   echo "-> Uploading binary"
   ftp -u ftp://anonymous:anonymous@192.168.1.1/node build/bin/node
   echo "-> Installing"
-  { echo "cd /data/video && mv ./node /bin && rm -rf node && exit"; sleep 1; } | telnet 192.168.1.1
+  { echo "cd /data/video && mv ./node /bin && chmod u+x /bin/node && rm -rf node && exit"; sleep 1; } | telnet 192.168.1.1
   echo "-> Installation completed!"
 else
   echo "-> Build completed!"
